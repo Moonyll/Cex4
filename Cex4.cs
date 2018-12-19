@@ -9,7 +9,7 @@ namespace ConsoleApp32
     class Program
     {
         static void Main(string[] args)
-        {
+        { // attention déclarer l'id et le mdp
             Console.WriteLine("Identifiant ?");
             string login = Console.ReadLine();
             Console.WriteLine("Mot de passe ?");
