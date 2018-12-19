@@ -15,9 +15,10 @@ namespace ConsoleApp32
             Console.WriteLine("Mot de passe ?");
             string password = Console.ReadLine();
             if (login == "stef" && password == "007") // Attention au double ==
-                Console.WriteLine("« Bienvenue à la Manu le Havre. »");
-            else
-                Console.WriteLine("« Mauvais identifiant ou mauvais mot de passe. »");
+            {
+            Console.WriteLine("« Bienvenue à la Manu le Havre. »");
+            }
+            else {Console.WriteLine("« Mauvais identifiant ou mauvais mot de passe. »");}
         }
     }
 }
